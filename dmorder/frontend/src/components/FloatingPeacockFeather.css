@@ -1,0 +1,136 @@
+/* ==========================================================================
+   Floating Peacock Feather Animation Styling
+   Award-winning cinematic scroll experience & subtle iridescent aura
+   ========================================================================== */
+
+.pf-feather-wrap {
+  position: fixed;
+  top: -24vh;
+  left: 82vw;
+  /* Large — landscape image width becomes visual height when standing upright */
+  width: clamp(320px, 38vw, 520px);
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 55;
+  will-change: transform, top, left, opacity;
+  transform-origin: center center;
+  perspective: 1200px;
+  filter: drop-shadow(0 20px 42px rgba(18, 40, 30, 0.22))
+          drop-shadow(0 0 35px rgba(20, 184, 166, 0.28))
+          drop-shadow(0 0 60px rgba(212, 175, 55, 0.18));
+  transition: filter 0.5s ease;
+}
+
+/* Dimmed work mode: Fades when typing or clicking so user can easily read and work */
+.pf-feather-wrap.pf-dimmed {
+  filter: drop-shadow(0 4px 14px rgba(18, 40, 30, 0.05));
+}
+
+/* Flexible quill & barb container for realistic wind bending */
+.pf-feather-flex {
+  width: 100%;
+  height: 100%;
+  transform-origin: 45% 88%; /* anchor at feather stem quill */
+  transform-style: preserve-3d;
+  will-change: transform;
+  display: block;
+}
+
+.pf-feather-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  opacity: 1;
+  filter: contrast(1.04) brightness(1.02);
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+}
+
+/* Faint ghost watermark (28% opacity) while working/typing/clicking */
+.pf-feather-wrap.pf-dimmed .pf-feather-img {
+  opacity: 0.28 !important;
+  filter: contrast(0.98) brightness(0.98);
+}
+
+/* Ambient Iridescent Aura behind feather (Mor Pankh Teal · Cyan · Royal Blue · Gold) */
+.pf-glow {
+  position: fixed;
+  top: 20vh;
+  left: 70vw;
+  width: clamp(340px, 38vw, 560px);
+  height: clamp(340px, 38vw, 560px);
+  pointer-events: none;
+  user-select: none;
+  z-index: 44;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(20, 184, 166, 0.32) 0%,
+    rgba(2, 132, 199, 0.24) 30%,
+    rgba(29, 78, 216, 0.16) 52%,
+    rgba(226, 180, 103, 0.12) 70%,
+    transparent 82%
+  );
+  filter: blur(55px);
+  mix-blend-mode: screen;
+  will-change: transform, top, left, opacity;
+  transform-origin: center center;
+  transition: opacity 0.4s ease;
+}
+
+.pf-glow.pf-dimmed {
+  opacity: 0.08 !important;
+}
+
+/* Subtle Shimmer Sheen when hovering near or moving through sections */
+@keyframes pfAuraPulse {
+  0%, 100% {
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 0.72;
+  }
+}
+
+.pf-glow {
+  animation: pfAuraPulse 5.5s ease-in-out infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .pf-feather-wrap {
+    width: clamp(190px, 30vw, 300px);
+    opacity: 0.88 !important;
+  }
+  .pf-glow {
+    width: clamp(260px, 40vw, 380px);
+    height: clamp(260px, 40vw, 380px);
+    filter: blur(40px);
+  }
+}
+
+@media (max-width: 600px) {
+  .pf-feather-wrap {
+    width: clamp(140px, 38vw, 220px);
+    opacity: 0.82 !important;
+  }
+  .pf-glow {
+    display: none; /* conserve mobile GPU performance */
+  }
+}
+
+/* Accessibility: respect user preferences */
+@media (prefers-reduced-motion: reduce) {
+  .pf-feather-wrap,
+  .pf-feather-flex,
+  .pf-glow {
+    animation: none !important;
+    transition: none !important;
+  }
+}

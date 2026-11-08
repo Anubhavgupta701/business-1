@@ -1,0 +1,85 @@
+/* ========================================================
+   RK COMPANY LOGO - CLEAN PROFESSIONAL INTEGRATION
+   ======================================================== */
+
+.rk-logo-container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  user-select: none;
+}
+
+.rk-mark-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.rk-logo-image {
+  display: block;
+  width: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rk-logo-container:hover .rk-logo-image {
+  transform: translateY(-1px) scale(1.03);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+
+.rk-ambient-glow {
+  display: none;
+}
+
+/* Size Variants */
+.rk-size-sm .rk-logo-image {
+  height: 28px;
+}
+
+.rk-size-md .rk-logo-image {
+  height: 48px;
+}
+
+.rk-size-lg .rk-logo-image {
+  height: 72px;
+}
+
+/* Brand Typography Companion */
+.rk-brand-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1;
+}
+
+.rk-brand-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--white);
+  display: flex;
+  align-items: baseline;
+  letter-spacing: -0.01em;
+}
+
+.rk-brand-script {
+  color: var(--white);
+}
+
+.rk-brand-purple {
+  color: var(--gold);
+  margin-left: 2px;
+}
+
+.rk-brand-by {
+  font-family: var(--mono, 'IBM Plex Mono', monospace);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--dim);
+  margin-top: 2px;
+}

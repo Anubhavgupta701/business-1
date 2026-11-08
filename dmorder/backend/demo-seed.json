@@ -1,0 +1,575 @@
+{
+  "users": [
+    {
+      "id": "seller_001",
+      "shopName": "Aisha Boutique",
+      "ownerName": "Aisha Khan",
+      "city": "Jaipur",
+      "instagramHandle": "@aisha.boutique.jaipur",
+      "whatsappNumber": "+91 98290 00000",
+      "mobile": "+91 98290 00000",
+      "email": "aisha.boutique@gmail.com",
+      "isDemo": true,
+      "plan": "STARTER",
+      "planPrice": 399,
+      "planRenewalDate": "2026-11-14",
+      "dmUsed": 212,
+      "dmLimit": 300,
+      "freeConversationsUsed": 0,
+      "freeConversationsTotal": 5,
+      "emailVerified": false,
+      "igConnected": false,
+      "codEnabled": true,
+      "upiEnabled": true,
+      "upiId": "aishaboutique@okhdfc",
+      "deliveryCharge": 49,
+      "freeDeliveryAbove": 999,
+      "aiLanguage": "Hinglish",
+      "aiEnabled": true,
+      "followUpHours": 6,
+      "workingHours24x7": true,
+      "passwordHash": "$2a$10$OrGHM8kKvyU/zu3lb0qiuO.hVFh0s2C4PcgOwVX9JzB/Nk0mQuwSm"
+    }
+  ],
+  "products": [
+    {
+      "id": "p001",
+      "sellerId": "seller_001",
+      "name": "Anarkali Kurti Set — Bandhej Print",
+      "price": 1299,
+      "comparePrice": 1799,
+      "category": "Kurti",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Pink",
+        "Green"
+      ],
+      "stock": 14,
+      "description": "Soft cotton, 3-piece set with dupatta. Daily wear + chhota function dono chalega.",
+      "codAvailable": true,
+      "status": "LIVE"
+    },
+    {
+      "id": "p002",
+      "sellerId": "seller_001",
+      "name": "Banarasi Silk Saree",
+      "price": 2499,
+      "comparePrice": 3499,
+      "category": "Saree",
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Maroon",
+        "Bottle Green"
+      ],
+      "stock": 6,
+      "description": "Banarasi silk, zari border. Blouse piece ke saath.",
+      "codAvailable": true,
+      "status": "LIVE"
+    },
+    {
+      "id": "p003",
+      "sellerId": "seller_001",
+      "name": "Cotton Mulmul Dupatta",
+      "price": 499,
+      "comparePrice": 699,
+      "category": "Dupatta",
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "White",
+        "Yellow"
+      ],
+      "stock": 32,
+      "description": "Halki mulmul, garmi ke liye best.",
+      "codAvailable": true,
+      "status": "LIVE"
+    },
+    {
+      "id": "p004",
+      "sellerId": "seller_001",
+      "name": "Handwork Potli Bag",
+      "price": 699,
+      "comparePrice": 999,
+      "category": "Accessories",
+      "sizes": [],
+      "colors": [
+        "Golden",
+        "Silver"
+      ],
+      "stock": 0,
+      "description": "Haath ki kadhai, party look.",
+      "codAvailable": true,
+      "status": "LIVE"
+    },
+    {
+      "id": "p005",
+      "sellerId": "seller_001",
+      "name": "Chikankari Short Kurti",
+      "price": 899,
+      "comparePrice": 1199,
+      "category": "Kurti",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "White",
+        "Peach"
+      ],
+      "stock": 21,
+      "description": "Lucknow chikankari, college/office wear.",
+      "codAvailable": true,
+      "status": "LIVE"
+    },
+    {
+      "id": "p006",
+      "sellerId": "seller_001",
+      "name": "Bandhej Lehenga Set",
+      "price": 3199,
+      "comparePrice": 4499,
+      "category": "Lehenga",
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Rani Pink"
+      ],
+      "stock": 4,
+      "description": "Festive special, semi-stitched.",
+      "codAvailable": true,
+      "status": "LIVE"
+    },
+    {
+      "id": "p007",
+      "sellerId": "seller_001",
+      "name": "Oxidised Jhumka Set",
+      "price": 349,
+      "comparePrice": 549,
+      "category": "Jewellery",
+      "sizes": [],
+      "colors": [
+        "Silver"
+      ],
+      "stock": 48,
+      "description": "Daily + festive, halki weight.",
+      "codAvailable": true,
+      "status": "LIVE"
+    },
+    {
+      "id": "p008",
+      "sellerId": "seller_001",
+      "name": "Ajrakh Handblock Stole",
+      "price": 599,
+      "comparePrice": 799,
+      "category": "Stole",
+      "sizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Indigo",
+        "Rust"
+      ],
+      "stock": 17,
+      "description": "Asli Ajrakh handblock print.",
+      "codAvailable": true,
+      "status": "LIVE"
+    },
+    {
+      "id": "p009",
+      "sellerId": "seller_001",
+      "name": "Festive Gota Kurti",
+      "price": 1499,
+      "comparePrice": 1999,
+      "category": "Kurti",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Mustard"
+      ],
+      "stock": 9,
+      "description": "Gota patti work, Diwali collection.",
+      "codAvailable": true,
+      "status": "LIVE"
+    },
+    {
+      "id": "p010",
+      "sellerId": "seller_001",
+      "name": "Plain Cotton Suit Piece",
+      "price": 1099,
+      "comparePrice": 1399,
+      "category": "Suit",
+      "sizes": [
+        "Unstitched"
+      ],
+      "colors": [
+        "Sky Blue",
+        "Mint"
+      ],
+      "stock": 25,
+      "description": "2.5m kurta + salwar + dupatta set.",
+      "codAvailable": true,
+      "status": "BAND"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1042",
+      "sellerId": "seller_001",
+      "customer": {
+        "name": "Priya Sharma",
+        "instagramHandle": "@priya.sharma_",
+        "phone": "98765 43210",
+        "address": {
+          "line": "14, Malviya Nagar, Jaipur, Rajasthan 302017",
+          "city": "",
+          "state": "",
+          "pincode": ""
+        }
+      },
+      "items": [
+        {
+          "productId": "",
+          "name": "Anarkali Kurti Set",
+          "size": "M",
+          "color": "Pink",
+          "qty": 1
+        }
+      ],
+      "amount": 1299,
+      "deliveryCharge": 0,
+      "payment": {
+        "method": "COD",
+        "status": "PENDING"
+      },
+      "status": "NEW",
+      "source": "COMMENT"
+    },
+    {
+      "id": "ORD-1041",
+      "sellerId": "seller_001",
+      "customer": {
+        "name": "Sneha Patil",
+        "instagramHandle": "@sneha.p",
+        "phone": "98220 11111",
+        "address": {
+          "line": "FC Road, Pune, Maharashtra 411005",
+          "city": "",
+          "state": "",
+          "pincode": ""
+        }
+      },
+      "items": [
+        {
+          "productId": "",
+          "name": "Oxidised Jhumka Set",
+          "size": "",
+          "color": "",
+          "qty": 2
+        }
+      ],
+      "amount": 698,
+      "deliveryCharge": 49,
+      "payment": {
+        "method": "UPI",
+        "status": "PAID"
+      },
+      "status": "CONFIRMED",
+      "source": "DM"
+    },
+    {
+      "id": "ORD-1040",
+      "sellerId": "seller_001",
+      "customer": {
+        "name": "Kavita Yadav",
+        "instagramHandle": "@kavita_y",
+        "phone": "90000 22222",
+        "address": {
+          "line": "Sector 22, Noida, UP 201301",
+          "city": "",
+          "state": "",
+          "pincode": ""
+        }
+      },
+      "items": [
+        {
+          "productId": "",
+          "name": "Chikankari Short Kurti",
+          "size": "L",
+          "color": "White",
+          "qty": 1
+        }
+      ],
+      "amount": 899,
+      "deliveryCharge": 49,
+      "payment": {
+        "method": "COD",
+        "status": "PENDING"
+      },
+      "status": "PACKED",
+      "source": "COMMENT"
+    },
+    {
+      "id": "ORD-1039",
+      "sellerId": "seller_001",
+      "customer": {
+        "name": "Ritu Verma",
+        "instagramHandle": "@ritu.v",
+        "phone": "98111 33333",
+        "address": {
+          "line": "Civil Lines, Delhi 110054",
+          "city": "",
+          "state": "",
+          "pincode": ""
+        }
+      },
+      "items": [
+        {
+          "productId": "",
+          "name": "Banarasi Silk Saree",
+          "size": "",
+          "color": "Maroon",
+          "qty": 1
+        }
+      ],
+      "amount": 2499,
+      "deliveryCharge": 0,
+      "payment": {
+        "method": "UPI",
+        "status": "PAID"
+      },
+      "status": "SHIPPED",
+      "source": "DM"
+    },
+    {
+      "id": "ORD-1038",
+      "sellerId": "seller_001",
+      "customer": {
+        "name": "Anjali Gupta",
+        "instagramHandle": "@anjali_g",
+        "phone": "98989 44444",
+        "address": {
+          "line": "Salt Lake, Kolkata, WB 700064",
+          "city": "",
+          "state": "",
+          "pincode": ""
+        }
+      },
+      "items": [
+        {
+          "productId": "",
+          "name": "Cotton Mulmul Dupatta",
+          "size": "",
+          "color": "",
+          "qty": 2
+        }
+      ],
+      "amount": 998,
+      "deliveryCharge": 49,
+      "payment": {
+        "method": "COD",
+        "status": "PENDING"
+      },
+      "status": "PACKED",
+      "source": "DM"
+    },
+    {
+      "id": "ORD-1037",
+      "sellerId": "seller_001",
+      "customer": {
+        "name": "Meera Joshi",
+        "instagramHandle": "@meera.j",
+        "phone": "97777 55555",
+        "address": {
+          "line": "Kothrud, Pune, Maharashtra 411038",
+          "city": "",
+          "state": "",
+          "pincode": ""
+        }
+      },
+      "items": [
+        {
+          "productId": "",
+          "name": "Ajrakh Handblock Stole",
+          "size": "",
+          "color": "Indigo",
+          "qty": 1
+        }
+      ],
+      "amount": 599,
+      "deliveryCharge": 49,
+      "payment": {
+        "method": "UPI",
+        "status": "PAID"
+      },
+      "status": "DELIVERED",
+      "source": "COMMENT"
+    },
+    {
+      "id": "ORD-1036",
+      "sellerId": "seller_001",
+      "customer": {
+        "name": "Shalini Rao",
+        "instagramHandle": "@shalini.r",
+        "phone": "96666 66666",
+        "address": {
+          "line": "HSR Layout, Bengaluru, Karnataka 560102",
+          "city": "",
+          "state": "",
+          "pincode": ""
+        }
+      },
+      "items": [
+        {
+          "productId": "",
+          "name": "Festive Gota Kurti",
+          "size": "S",
+          "color": "Mustard",
+          "qty": 1
+        }
+      ],
+      "amount": 1499,
+      "deliveryCharge": 0,
+      "payment": {
+        "method": "COD",
+        "status": "PENDING"
+      },
+      "status": "CANCELLED",
+      "source": "DM"
+    },
+    {
+      "id": "ORD-1035",
+      "sellerId": "seller_001",
+      "customer": {
+        "name": "Farah Sheikh",
+        "instagramHandle": "@farah.s",
+        "phone": "95555 77777",
+        "address": {
+          "line": "Andheri West, Mumbai, Maharashtra 400053",
+          "city": "",
+          "state": "",
+          "pincode": ""
+        }
+      },
+      "items": [
+        {
+          "productId": "",
+          "name": "Bandhej Lehenga Set",
+          "size": "L",
+          "color": "",
+          "qty": 1
+        }
+      ],
+      "amount": 3199,
+      "deliveryCharge": 0,
+      "payment": {
+        "method": "UPI",
+        "status": "PAID"
+      },
+      "status": "CONFIRMED",
+      "source": "COMMENT"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "c1",
+      "sellerId": "seller_001",
+      "customerName": "Priya Sharma",
+      "handle": "@priya.sharma_",
+      "productInterest": "Anarkali Kurti Set",
+      "lastMessage": "Ho gaya… order ORD-1042",
+      "status": "ORDER_CLOSED",
+      "time": "11:42 AM"
+    },
+    {
+      "id": "c2",
+      "sellerId": "seller_001",
+      "customerName": "Neha Singh",
+      "handle": "@neha.s",
+      "productInterest": "Banarasi Saree",
+      "lastMessage": "Thoda soch ke batati hu",
+      "status": "STALLED",
+      "time": "9:15 AM"
+    },
+    {
+      "id": "c3",
+      "sellerId": "seller_001",
+      "customerName": "Pooja Meena",
+      "handle": "@pooja.m",
+      "productInterest": "Jhumka Set",
+      "lastMessage": "COD hai kya?",
+      "status": "IN_CHAT",
+      "time": "10:05 AM"
+    },
+    {
+      "id": "c4",
+      "sellerId": "seller_001",
+      "customerName": "Divya Nair",
+      "handle": "@divya.n",
+      "productInterest": "Gota Kurti",
+      "lastMessage": "(seller ne khud jawab diya)",
+      "status": "HUMAN_TAKEOVER",
+      "time": "Kal"
+    }
+  ],
+  "rules": [
+    {
+      "id": "rule_demo_0",
+      "sellerId": "seller_001",
+      "triggerWord": "price",
+      "action": "send_dm",
+      "enabled": true
+    },
+    {
+      "id": "rule_demo_1",
+      "sellerId": "seller_001",
+      "triggerWord": "link",
+      "action": "send_dm",
+      "enabled": true
+    },
+    {
+      "id": "rule_demo_2",
+      "sellerId": "seller_001",
+      "triggerWord": "buy",
+      "action": "send_dm",
+      "enabled": true
+    },
+    {
+      "id": "rule_demo_3",
+      "sellerId": "seller_001",
+      "triggerWord": "pp",
+      "action": "send_dm",
+      "enabled": true
+    },
+    {
+      "id": "rule_demo_4",
+      "sellerId": "seller_001",
+      "triggerWord": "rate",
+      "action": "send_dm",
+      "enabled": true
+    }
+  ],
+  "templates": [
+    {
+      "id": "tpl_demo_1",
+      "sellerId": "seller_001",
+      "name": "Follow-up",
+      "type": "followup",
+      "body": "Namaste {name} ji, aapne {product} ke liye pucha tha — stock abhi hai, order karu kya? Reply karein, main yahi hu.",
+      "enabled": true
+    }
+  ]
+}
